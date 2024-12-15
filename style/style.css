@@ -1,0 +1,125 @@
+*{
+    font-family: "Sora", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+:root{
+    --eerie-black-1: hsl(240, 2%, 13%);
+    --eerie-black-2: hsl(240, 2%, 12%);
+    --eerie-black-3: hsla(0, 0%, 84%, 0.7);
+    --light-gray-70: hsla(0, 0%, 84%, 0.7);
+}
+
+html, body{
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--eerie-black-1);
+    font-size: 1.6rem;
+    margin: 60px auto;
+}
+
+.container{
+    display: flex;
+}
+
+/*container-md*/
+.container-md{
+    position: sticky;
+    background-color: var(--eerie-black-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 275px;
+    max-height: 760px;
+    border-radius: 2rem;
+    padding: 6rem 3rem 3rem 3rem;
+}
+
+.porfile-img{
+    border-radius: 3rem;
+    height: 15rem;
+    width: 14.7rem;
+    margin-bottom: 2.5rem;
+}
+
+.info-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-content h1{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.info-content span{
+    font-weight: 300;
+    background-color: hsl(240, 1%, 17%);
+    color: white;
+    font-size: 1.2rem;
+    padding: .5rem;
+    border-radius: .8rem;
+}
+
+.sidebar-info{
+    width: 100%;
+}
+
+.separator{
+    width: 100%;
+    height: 1px;
+    background: hsl(0, 0%, 22%);
+    margin: 16px 0;
+}
+
+.list-group{
+    font-size: 1.6rem;
+}
+
+.list-group-item{
+    display: flex;
+    font-size: 1.6rem;
+    background: var(--eerie-black-2);
+    color: white;
+    border: none;
+}
+
+i{
+    font-size: 2rem;
+    color: hsl(45, 100%, 72%);
+    background-color: var(--eerie-black-1);
+    padding: .5rem;
+    border-radius: .8rem;
+    margin-right: 1rem;
+}
+
+.contact-info p.email-title{
+    color: hsl(0, 0%, 84%);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: -0.1rem;
+}
+
+.contact-info p.email-example{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+/*container-lg*/
+.container-lg{
+    background-color: blue;
+}
