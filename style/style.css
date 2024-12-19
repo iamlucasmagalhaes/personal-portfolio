@@ -170,13 +170,15 @@ nav{
     color: hsl(45, 100%, 72%);
 }
 
-.container-info h2{
+.container-info h2,
+.article-title h2{
     font-size: 3.2rem;
     color: white;
     font-weight: 700;
 }
 
-.container-info span{
+.container-info span,
+.article-title span{
     font-size: .5rem;
     color: hsl(45, 100%, 72%);
     background: hsl(45, 100%, 72%);
@@ -279,4 +281,31 @@ nav{
     color: white;
     font-size: 1.2rem;
     text-align: justify;
+}
+
+.book-icon-and-text{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bakcground-book{
+    display: flex;
+    align-items: center;
+    background: hsla(240, 1%, 17%, 0.75);
+    backdrop-filter: blur(10px);
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+}
+
+.bakcground-book i{
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
+
+.book-icon-and-text h3{
+    font-weight: 600;
 }
