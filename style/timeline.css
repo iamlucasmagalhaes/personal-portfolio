@@ -1,9 +1,8 @@
 .timeline-content{
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    height: 100vh;
+    height: 40vh;
     margin-left: -530px;
 }
 
