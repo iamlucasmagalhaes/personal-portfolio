@@ -1,0 +1,46 @@
+.my-skills {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container-skill {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 50vw;
+  }
+
+  .skill {
+    margin: 20px 0;
+  }
+
+  .skill-name {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+
+  .progress-bar-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+  }
+
+  .progress-bar {
+    height: 100%;
+    border-radius: 20px;
+    transition: width 1s ease-in-out;
+  }
+
+  .html { background-color: hsl(45, 100%, 72%); }
+  .css { background-color: hsl(45, 100%, 72%); }
+  .js { background-color: hsl(45, 100%, 72%); }
+  
+  .percentage {
+    font-weight: bold;
+    margin-top: 5px;
+    font-size: 1.2rem;
+  }
